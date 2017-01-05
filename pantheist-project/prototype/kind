@@ -1,0 +1,21 @@
+{
+  "kindId": "",
+  "presentation" : {
+    "displayName": "",
+    "iconUrl" : "/resources/images/splat.png"
+  },
+  "schema" : {
+    "properties": {
+    },
+    "identification": {
+      "parentKind": ""
+    }
+  },
+  "createAction" : {
+    "basicType" : "",
+    "mimeType" : "",
+    "urlTemplate" : "http://127.0.0.1:3142/kind/{kindId}",
+    "prototypeUrl" : "http://127.0.0.1:3142/project/prototype/"
+  }
+}
+

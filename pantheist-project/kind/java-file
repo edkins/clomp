@@ -1,0 +1,63 @@
+{
+  "kindId" : "java-file",
+  "partOfSystem" : true,
+  "presentation" : {
+    "iconUrl" : "/resources/images/file.png",
+    "displayName" : "Java File"
+  },
+  "schema" : {
+    "properties" : {
+      "qualifiedName" : {
+        "type" : "string",
+        "isIdentifier" : true
+      },
+      "package" : {
+        "type" : "string"
+      },
+      "fileName" : {
+        "type" : "string"
+      },
+      "isInterface" : {
+        "type" : "boolean"
+      },
+      "isClass" : {
+        "type" : "boolean"
+      },
+      "annotations" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "constructors" : {
+        "type" : "array",
+        "items" : {
+          "type" : "object",
+          "properties" : {
+            "parameters" : {
+              "type" : "array",
+              "items" : {
+                "type" : "object",
+                "properties" : {
+                  "annotations" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "createAction" : {
+    "basicType" : "java",
+    "mimeType" : "text/plain",
+    "urlTemplate" : "http://127.0.0.1:3142/kind/java-file/create",
+    "prototypeUrl" : "http://127.0.0.1:3142/project/prototype/java-file",
+    "method" : "post"
+  }
+}

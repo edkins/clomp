@@ -1,0 +1,17 @@
+{
+  "kindId" : "kind",
+  "partOfSystem" : true,
+  "presentation" : {
+    "iconUrl" : "/resources/images/kind.png",
+    "displayName" : "Kind"
+  },
+  "schema" : { },
+  "createAction" : {
+    "basicType" : "json",
+    "mimeType" : "application/json",
+    "jsonSchema" : "http://127.0.0.1:3142/json-schema/kind/data",
+    "urlTemplate" : "http://127.0.0.1:3142/kind/kind/create",
+    "prototypeUrl" : "http://127.0.0.1:3142/project/prototype/kind",
+    "method" : "post"
+  }
+}

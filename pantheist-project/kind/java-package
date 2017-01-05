@@ -1,0 +1,10 @@
+{
+  "kindId": "java-package",
+  "partOfSystem": true,
+  "presentation": {
+    "iconUrl": "/resources/images/java-package.png",
+    "openIconUrl": null
+  },
+  "schema": {
+  }
+}

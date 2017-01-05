@@ -1,0 +1,57 @@
+Tool behaviour
+- flood fill into fuzzy area and blend colours properly
+- flood fill without leaking through small gaps
+- Specify a circle by giving centre and radius, not top left hand corner
+---- or drag from one side of the circle to the other
+---- graphical and numerical way of positioning
+---- fixed-radius circles, click to stamp them out
+- transparency is just another colour
+----- no transparent-but-white and transparent-but-black
+- if an option prevents a tool from functioning normally, indicate this by flashing the option
+---- if you're drawing outside the clipped area
+---- if you've set the line tool to horizontal/vertical and you want a different angle
+---- if you're drawing in the same colour as what's already there
+---- if your opacity is set very low
+
+Pixel work
+- option to snap to pixels
+- rotating image with thin lines by non-90 degree angle
+- drawing straight line 2 pixels wide
+
+Layers
+- collapse layers easily
+- Multiple clipboards
+- Avoid floating vs. non-floating selection concept if possible
+- Paste repetitive patterns without overwriting something
+- Confine drawing to a region
+- Scratchpads within a project
+- Drawing outside image boundary
+- Animations
+---- draw on this frame vs. draw on all frames
+---- paste into dozens of frames at the same time
+
+Scrolling and zooming
+- scroll at the right speed when dragging off the edge
+- pause operation in the middle, scroll or zoom, then resume
+-  if you make the window of the file smaller than the whole screen (because you want to look at another pix at the same time) and then zoom in, it make the window as big as possible
+
+Customization
+- Duplicate and delete/hide tools
+- Exponential sliders
+- Revert button
+- Get dockable toolbars right
+
+File save
+- remember gif vs. jpeg
+- remember multiple locations
+- recover a file if you saved over it
+
+Undo
+- undo an operation and then redo with different settings
+- include view settings such as scroll & zoom within the scope of undo
+- sometimes when you reopen a file you want to open its undo history at the same time
+- include window layout in scope of undo
+- set entire workspace back to known state
+---- Or if we're being VERY clever, back to ONE of the known points, which I've set up
+
+

@@ -1,0 +1,16 @@
+{
+  "kindId" : "json-schema",
+  "partOfSystem" : true,
+  "presentation" : {
+    "iconUrl" : "/resources/images/json-schema.png",
+    "displayName" : "JSON Schema"
+  },
+  "schema" : { },
+  "createAction" : {
+    "basicType" : "json",
+    "mimeType" : "application/schema+json",
+    "urlTemplate" : "http://127.0.0.1:3142/kind/json-schema/create",
+    "prototypeUrl" : "http://127.0.0.1:3142/project/prototype/json-schema",
+    "method" : "post"
+  }
+}

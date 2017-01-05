@@ -1,0 +1,10 @@
+{
+  "kindId": "json",
+  "partOfSystem": true,
+  "presentation": {
+    "iconUrl": "/resources/images/file.png",
+    "openIconUrl": null
+  },
+  "schema": {
+  }
+}

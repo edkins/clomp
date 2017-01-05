@@ -1,0 +1,11 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "http://127.0.0.1:3142/json-schema//data",
+	"title": "",
+	"description": "",
+	"type": "object",
+	"properties": {
+	}
+	"required": []
+}
+

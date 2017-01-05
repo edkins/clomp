@@ -1,0 +1,10 @@
+{
+  "kindId" : "sql-table",
+  "partOfSystem" : true,
+  "presentation" : {
+    "iconUrl" : "/resources/images/table.png",
+    "openIconUrl" : null
+  },
+  "schema" : {
+  }
+}
